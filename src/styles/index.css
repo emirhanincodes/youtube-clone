@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.navBar{
+    display: flex;
+    flex-direction:row ;
+    background-color: #212121;
+    width: 100%;
+    height: 56px;
+}
+.searchInput{
+    padding-left: 10px;
+    margin-left:500px;
+    width: 462px;
+    height:40px ;
+    margin-top: 5px;
+    background-color: #121212;
+    border: 1px solid #303030;
+
+}
+.ortaNav{
+    display: flex;
+    flex-direction: row;
+    
+}
+.searchButton{
+    background-color: #303030;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 11px;
+    width: 50px;
+    border-radius: 0 5px 5px 0 ;
+}
+.rigthNav{
+    margin-left: 25%;
+    margin-top: 5px;
+}
+.mic
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-left: 1%;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: inherit;
+}
+.sidebar{
+    background-color: #212121;
+    width: 240px;
+    height: 1395px;
+    padding-top:1% ;
+}
+.sidebarItem{
+    width: 240px;
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+    margin-right: 5%;
+    color: white;
+    
+}
+.sidebarItem p{
+    margin-top: 5px;
+    margin-left: 10%;
+}
+.line{
+    border: 1px solid rgba(57, 60, 75, 0.575);
+    margin: 5px 5px 15px 5px;
+
+    
+
+}
